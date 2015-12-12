@@ -10,3 +10,5 @@ fatal: could not read Username for 'https://github.com': Device not configured
 显示设备没有配置.
 
 Google了半天发现可能是git的方式不对。在sublime下要使用ssh的模式才可以push成功。所以通过命令Git:add remote打开设置，设置origin然后再下一步中填入ssh方式的地址就可以了。
+
+弄了一天我决定写一篇博客记录一下整个安装的过程，怕以后忘记。
